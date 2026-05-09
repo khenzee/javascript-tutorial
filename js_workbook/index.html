@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Workbook</title>
+    <!-- Claude-inspired typography: Inter for body, optional serif for distinct headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<div class="app-container">
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <h2>JS Fundamentals</h2>
+            <p>Summary Workbook</p>
+        </div>
+        <ul class="nav-list" id="nav-list">
+            <!-- Navigation items injected via JS -->
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <header class="content-header">
+            <span class="module-badge" id="module-badge">Module 1</span>
+            <h1 id="module-title">Introduction to JavaScript</h1>
+            <p class="module-subtitle" id="module-subtitle">The language of the web — dynamic, versatile, and essential</p>
+        </header>
+
+        <section class="content-body" id="content-body">
+            <!-- Content injected via JS -->
+        </section>
+
+        <!-- Capstone Exercise Section (Hidden by default, shown via JS if applicable) -->
+        <section class="capstone-section hidden" id="capstone-section">
+            <div class="capstone-header">
+                <i class="fas fa-laptop-code"></i>
+                <h2>Capstone Exercise</h2>
+            </div>
+            <div class="capstone-body">
+                <p id="capstone-desc">Exercise description goes here.</p>
+                <div class="capstone-interactive">
+                    <button class="btn-primary" id="btn-reveal">Reveal Solution</button>
+                    <div class="solution-container hidden" id="solution-container">
+                        <pre><code id="capstone-solution">Solution code...</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="content-footer">
+            <button class="btn-secondary" id="btn-prev" disabled><i class="fas fa-arrow-left"></i> Previous</button>
+            <button class="btn-secondary" id="btn-next">Next <i class="fas fa-arrow-right"></i></button>
+        </footer>
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
