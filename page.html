@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScript DOM Tutorial</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .box { width: 100px; height: 100px; background-color: lightgray; margin-bottom: 10px; }
+    </style>
 </head>
 <body>
+    <h1 id="main-title">JavaScript Concepts</h1>
+    <p class="desc">Open your developer console to see the output of the JavaScript file!</p>
+    
+    <div id="item-list">
+        <div class="box">Item 1</div>
+        <div class="box">Item 2</div>
+        <div class="box">Item 3</div>
+    </div>
 
-    <script src="app.js">
-    //  console.log(10 + 110)
-    </script>
+    <h2>Form Example</h2>
+    <form id="my-form">
+        <label for="name-input">Name:</label>
+        <input type="text" id="name-input" placeholder="Enter your name" required>
+        <button type="submit">Submit Form</button>
+    </form>
+
+    <h2>Event Handling Example</h2>
+    <button id="action-btn">Hover & Click Me!</button>
+
+    <script src="jsclass.js"></script>
 </body>
 </html>
