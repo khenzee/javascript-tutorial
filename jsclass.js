@@ -44,13 +44,20 @@ console.log("Exponentiation:", a ** 2); // 100
 
 // Assignment Operators
 let c = 10;
+c ++; // Increment. this is the same as C + 1
+c --; // Decrement. this is the same as C - 1
 c += 5; // Equivalent to c = c + 5 (15)
+c -= 5; // Equivalent to c = c - 5 (5)
 
 // Comparison Operators
 console.log("Equal value:", a == "10"); // true (checks value only)
 console.log("Equal value & type:", a === "10"); // false (checks value and type)
 console.log("Not equal:", a !== b); // true
 console.log("Greater than:", a > b); // true
+console.log("Lesser than:", a < b); // false
+console.log("Greater or Equal to:", a >= b); // true
+console.log("Lesser or Equal to:", a <= b); // false
+
 
 // Logical Operators
 let isAdult = true;
