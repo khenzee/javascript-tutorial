@@ -44,10 +44,16 @@ console.log("Exponentiation:", a ** 2); // 100
 
 // Assignment Operators
 let c = 10;
+
+// Mathematics Operators
 c ++; // Increment. this is the same as C + 1
 c --; // Decrement. this is the same as C - 1
 c += 5; // Equivalent to c = c + 5 (15)
 c -= 5; // Equivalent to c = c - 5 (5)
+c = c % 2
+c = c ** 2
+c = c / 2
+
 
 // Comparison Operators
 console.log("Equal value:", a == "10"); // true (checks value only)
@@ -97,13 +103,12 @@ switch (day) {
    LOOPS IN JAVASCRIPT
    ================================================== */
 // For Loop (runs a block of code a specific number of times)
-console.log("For Loop:");
+
 for (let i = 1; i <= 3; i++) {
   console.log("Count:", i);
 }
 
 // While Loop (runs as long as a condition is true)
-console.log("While Loop:");
 let count = 1;
 while (count <= 3) {
   console.log("While Count:", count);

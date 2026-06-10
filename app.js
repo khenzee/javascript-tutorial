@@ -27,3 +27,42 @@ let num = 50
 //undefined
 
 //null
+
+
+function sayHello(goat){
+  console.log("Hey " + goat + ", " + "hello")
+}
+
+sayHello("femi")
+sayHello("segun")
+
+
+function addNum(num1, num2){
+  return("Answer: " + (num1 + num2))
+}
+
+let addition = addNum(2, 5)
+
+
+console.log(addition)
+
+// Arrow function
+const addNumber = (num1, num2) =>{
+  return("Answer: " + (num1 + num2))
+}
+
+addition = addNumber(2, 5)
+
+let cart = ["Apples", "Oranges"];
+cart.push("Mango")
+cart.push("Cherry")
+cart.unshift("Banana")
+cart.slice(1, 3)
+console.log(cart)
+
+
+let gender = "emmanuel is a boy"
+ console.log(gender)
+ console.log(gender[2]) //
+
+
